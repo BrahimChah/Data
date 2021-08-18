@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h2  {
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+h3 {
+	color: white;
+	font-size: 0.6em;
+	font-weight: bolder;
+}
+
+span {
+	color: #a85bd9;
+	font-size: 1.2em;
+}
+
+p {
+	color: gray;
+	font-size: 0.6em;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	opacity: 30%;
+
+}
+
+/*Fond général d'écran*/
+.background {
+	background-color: #0a0c1b
+}
+
+/*fond de la div générale*/
+.divfond {
+	background-color: #1c1938;
+	padding: 4%;
+}
+
+/*Disposition des colonnes*/
+
+.row {
+	display: flex;
+	padding-left: 14%;
+	padding-right: 14%;
+	padding-bottom: 14%;
+	position: absolute;
+	top: 0;
+	transform: translateY(50%);
+}
+
+.row2 {
+	display: flex;
+	padding-right: 14%;
+}
+
+.col-md-4 {
+	width: 50%;
+}
+
+.element {
+	display: inline;
+	width: 33%;
+	margin-right: 15%;
+}
+
+.h3-element {
+	margin-bottom: 0px;
+}
+
+.p-element {
+	margin-top: 5%;
+	font-size: 0.4em;
+}
+
+.filtre {
+	background-color : #a85bd96b;; 
+	height: 100%;
+}

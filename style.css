@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* définition des couleurs */
+/* définition des marges et de l'affichage */
+/* Row */
+/* Gestion des polices */
+/* Gros titres des divs */
+h2 {
+  color: white;
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+/* Taille de la police des chiffres en majuscule */
+h3 {
+  color: white;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+/* Le mot insight en rose du titre */
+span {
+  color: #a85bd9;
+  font-size: 1em;
+}
+
+/* Couleur et et tailles du texte */
+p {
+  color: gray;
+  font-size: 1em;
+}
+
+/* Taille et transparence de l'image */
+img {
+  height: 100%;
+  width: 100%;
+  opacity: 30%;
+  border-radius: 0% 2% 2% 0%;
+}
+
+/*Fond général d'écran*/
+.background {
+  background-color: #0a0c1b;
+}
+
+/*fond de la div générale*/
+.divfond {
+  background-color: #1c1938;
+  padding: 7%;
+  padding-top: 6%;
+  border-radius: 2% 0% 0% 2%;
+}
+
+/*Disposition des colonnes*/
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-bottom: 14%;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 14%;
+}
+
+.col-md-4 {
+  width: 50%;
+}
+
+.element {
+  display: inline;
+  width: 33%;
+  margin-right: 15%;
+}
+
+/* Elements du paragraphe */
+.h3-element {
+  margin-bottom: 0px;
+}
+
+.p-element {
+  margin-top: 5%;
+  font-size: 0.8em;
+}
+
+/* Coloration de l'image en violet */
+.filtre {
+  background-color: #8600db6b;
+  height: 100%;
+  border-radius: 0% 2% 2% 0%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .image {
+    padding: 4%;
+  }
+  .row {
+    display: block;
+    padding: 0%;
+    position: static;
+  }
+  .col-md-4 {
+    width: auto;
+  }
+  .divfond {
+    padding: 10%;
+    border-radius: 0% 0% 2% 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  img {
+    border-radius: 2% 2% 0% 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .filtre {
+    border-radius: 2% 2% 0% 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    width: auto;
+  }
+  .droite {
+    margin-bottom: 20%;
+    margin-top: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
